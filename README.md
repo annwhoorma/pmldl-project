@@ -10,3 +10,5 @@ Some functions for data preprocessing were taken from [this awesome tutorial](ht
 All the **architectures** discussed in the final report are in _autoencoder.ipynb_ document.
 
 All the **data preprocessing and dataloaders** creation are in _helping_module_ and _data_processing.ipynb_.
+
+**Final presentation** is in _presentation/_ folder, follow the instructions there to view it.
