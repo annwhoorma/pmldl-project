@@ -508,3 +508,72 @@ Permutation and rotation invariant!
         align-items: center;
     }
 </style>
+
+---
+
+# Loss Function: Chamfer Distance
+
+<img src="images/architecture/chamfer_dist.png">
+
+<style>
+    img {
+        padding-top: 6em;
+    }
+</style>
+
+---
+
+# A discovery
+
+**YAY**: use 1D convolution to increase the number of points
+
+**NAY**: do not use it to increase the number of dimensions
+
+<div class="row">
+    <img src="images/architecture/decoder_channels.png" class="arch">
+    <img src="images/results/badbad.png">
+</div>
+
+<style>
+    p {
+        opacity: 1;
+    }
+    .row {
+        padding-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 30%;
+        border-radius: 5px;
+    }
+    .arch {
+        width: 70%
+    }
+</style>
+
+---
+
+# Possible Further Work
+
+1. Train for longer
+
+2. Graph Neural Network
+
+3. Variational Autoencoder
+
+---
+
+# Variational Autoencoder
+
+<img src="images/architecture/vaencoder.png">
+
+<style>
+    img {
+        width: 65%;
+        border-radius: 5px;
+        margin-left: 7em;
+    }
+</style>
+
