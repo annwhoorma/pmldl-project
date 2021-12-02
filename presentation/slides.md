@@ -563,6 +563,10 @@ Permutation and rotation invariant!
 
 3. Variational Autoencoder
 
+4. Change size of latent space
+
+5. Use this architecture to train a GAN
+
 ---
 
 # Variational Autoencoder
